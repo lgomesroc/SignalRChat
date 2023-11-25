@@ -24,6 +24,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-app.MapHub<ChatHub>("/Chat");
+app.MapHub<ChatHub>("/chatHub");
 
 app.Run();
